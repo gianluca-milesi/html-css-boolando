@@ -59,6 +59,44 @@ img {
     line-height: 16px;
 }
 
+.bxs-heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 16px;
+}
+
+.bxs-heart:hover{
+    color: red;
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    gap: 8px;
+}
+
+.discount-badge{
+    background-color: red;
+    color: white;
+    padding: 2px 14px;
+}
+
+.sostenibility-badge{
+    background-color: green;
+    color: white;
+    padding: 2px 14px;
+}
+
+
+
+
+
 
 
 
@@ -79,6 +117,14 @@ img {
 
 .color-red{
     color: red;
+}
+
+.color-white{
+    color: white;
+}
+
+.pos-rel{
+    position: relative;
 }
 
 
