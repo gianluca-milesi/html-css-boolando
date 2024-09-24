@@ -84,6 +84,19 @@ header {
 
 
 /* MAIN */
+.hover-index{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0%;
+    transition: 0.2s;
+}
+
+.hover-index:hover{
+    opacity: 100%;
+    z-index: 1;
+}
+
 .text-box {
     padding: 0 0 20px 0;
     line-height: 16px;
@@ -95,7 +108,8 @@ header {
     right: 0;
     background-color: white;
     padding: 16px;
-    border-radius: 10px 0 0 10px
+    border-radius: 10px 0 0 10px;
+    z-index: 999;
 }
 
 .bxs-heart:hover {
@@ -110,6 +124,7 @@ header {
     bottom: 60px;
     left: 0;
     gap: 8px;
+    z-index: 1;
 }
 
 .discount-badge {
