@@ -37,5 +37,29 @@ img {
 }
 
 .col-16{
-    width: calc(100%/6);
+    width: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UTILITIES */
+.basis-33{
+    flex-basis: 33%;
+}
+
+
+
+/* DEBUG */
+.container.debug .col-16 {
+    border: 1px solid black;
 }
