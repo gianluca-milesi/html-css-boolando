@@ -40,9 +40,11 @@ img {
     width: 33%;
 }
 
-/* .card {
-    padding: 20px;
-} */
+.card {
+    padding: 10px;
+}
+
+/* HEADER */
 
 
 
@@ -68,6 +70,7 @@ img {
     right: 0;
     background-color: white;
     padding: 16px;
+    border-radius: 10px 0 0 10px
 }
 
 .bxs-heart:hover{
