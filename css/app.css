@@ -114,6 +114,7 @@ header {
 
 .bxs-heart:hover {
     color: red;
+    cursor: pointer;
 }
 
 .badges {
@@ -125,6 +126,7 @@ header {
     left: 0;
     gap: 8px;
     z-index: 1;
+    cursor: default;
 }
 
 .discount-badge {
