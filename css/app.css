@@ -26,7 +26,7 @@ img {
 }
 
 /* LAYOUT */
-.container{
+.container {
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -36,7 +36,7 @@ img {
     flex-wrap: wrap;
 }
 
-.col-16{
+.col-16 {
     width: 33%;
 }
 
@@ -45,14 +45,22 @@ img {
 }
 
 /* HEADER */
+header {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    background-color: rgb(255, 105, 0);
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    max-width: 994px;
+    margin: 0 auto;
+    padding: 14px 0;
+    color: white;
 }
 
-.categories-menu{
+.categories-menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,14 +69,15 @@ img {
 
 .logo {
     width: 100px;
-    height: 30px;
+    height: 22px;
 }
 
-.account-menu{
+.account-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
+    margin-left: 86px;
 }
 
 
@@ -84,12 +93,12 @@ img {
 
 
 /* MAIN */
-.text-box{
+.text-box {
     padding: 0 0 20px 0;
     line-height: 16px;
 }
 
-.bxs-heart{
+.bxs-heart {
     position: absolute;
     top: 10px;
     right: 0;
@@ -98,7 +107,7 @@ img {
     border-radius: 10px 0 0 10px
 }
 
-.bxs-heart:hover{
+.bxs-heart:hover {
     color: red;
 }
 
@@ -112,13 +121,13 @@ img {
     gap: 8px;
 }
 
-.discount-badge{
+.discount-badge {
     background-color: red;
     color: white;
     padding: 2px 14px;
 }
 
-.eco-badge{
+.eco-badge {
     background-color: green;
     color: white;
     padding: 2px 14px;
@@ -137,25 +146,31 @@ img {
 
 
 
+
+
 /* UTILITIES */
-.basis-33{
+.basis-33 {
     flex-basis: 33%;
 }
 
-.fs-14{
+.fs-14 {
     font-size: 14px;
 }
 
-.color-red{
+.color-red {
     color: red;
 }
 
-.color-white{
+.color-white {
     color: white;
 }
 
-.pos-rel{
+.pos-rel {
     position: relative;
+}
+
+.padding-40y{
+    padding: 40px 0;
 }
 
 
