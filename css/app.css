@@ -45,6 +45,31 @@ img {
 }
 
 /* HEADER */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.categories-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo {
+    width: 100px;
+    height: 30px;
+}
+
+.account-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
 
 
 
