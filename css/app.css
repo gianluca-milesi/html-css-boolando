@@ -40,6 +40,9 @@ img {
     width: 33%;
 }
 
+/* .card {
+    padding: 20px;
+} */
 
 
 
@@ -87,7 +90,7 @@ img {
     padding: 2px 14px;
 }
 
-.sostenibility-badge{
+.eco-badge{
     background-color: green;
     color: white;
     padding: 2px 14px;
